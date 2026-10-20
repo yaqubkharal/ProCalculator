@@ -1,0 +1,14 @@
+BUILD ProCalculator APK WITHOUT ANDROID STUDIO
+
+This project includes a GitHub Actions workflow to build the APK online.
+
+1. Sign in to GitHub and create a new repository (for example: ProCalculator).
+2. Upload the contents of this folder to the repository. Make sure the .github/workflows/build-apk.yml file is included.
+3. Open the repository's Actions tab.
+4. Select "Build ProCalculator APK" from the workflow list.
+5. Click "Run workflow" (if it has not started automatically after uploading to main/master).
+6. Wait until the workflow finishes successfully.
+7. Open the completed workflow run and download the artifact named "ProCalculator-debug-apk".
+8. Extract the downloaded artifact ZIP; it contains app-debug.apk.
+
+Note: This produces a debug APK for testing/installing. Android may ask you to allow installation from your browser or file manager. Do not install APKs from untrusted sources.
